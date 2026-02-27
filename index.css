@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sacramento&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+  font-family: 'inter', sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: white;
+    padding: 10px 20px;
+}
+section{
+    padding: 40px 0;
+}
+.heroImageAndButton{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.hero_img{
+    width: 350px;
+}
+.heroImageAndButton img{
+    width: 100%;
+}
+.heroImageAndButton button{
+    padding: 11px 30px;
+    border: 2px solid #1E88E5;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.heroImageAndButton .sign_in{
+    padding-left: 240px;
+}
+.chuksKitchenSection{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.chuksKitchen{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.chuksTexts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+.chuksKitchen h1{
+    font-family: 'island moments';
+    font-weight: 400;
+    font-size: 40.81px;
+    color: #FF7A18;
+    text-align: center;
+    width: 100%;
+}
+.chuksKitchen h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.chuksKitchen p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.allFKT{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fkt{
+    display: flex;
+    gap: 11px;
+    padding: 6px 9px;
+    align-items: center;
+    background-color: #F3F4F6;
+    border-radius: 8px;
+}
+.fkt img{
+    background-color: #FFE1C4;
+    padding: 10px;
+    border-radius: 13px;
+}
+.fkt p{
+    font-weight: 500;
+}
+.orderLearnMore{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+.orderLearnMore button{
+    width: 330px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 18px;
+    align-items:  center;
+    justify-content: center;
+}
+.order button{
+    border: none;
+    background-color: #FF7A18;
+    color: #FFFFFF;
+}
+.learnMore button{
+    border: 2px solid #1E88E5;
+    color: #1E88E5;
+    background-color: transparent;
+}

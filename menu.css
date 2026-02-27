@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+* {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  *::-webkit-scrollbar {
+    display: none; 
+  }
+html{
+  font-family: 'inter', sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: white;
+    color: #1F2937;
+}
+nav{
+    padding: 5px 19px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+
+}
+nav h1{
+    font-family: 'island moments';
+    font-size: 24px;
+    font-weight: 400;
+    color: #FF7A18;
+    line-height: 40.81px;
+}
+nav i{
+    font-size: 25px;
+}
+.heroSection{
+    width: 100%;
+    height: 496px;
+    position: relative;
+}
+.heroImg{
+    width: 100%;
+    height: 100%;
+}
+.heroImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.heroSection .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 8px;
+    background-color: rgba(0, 0, 0, 0.347);
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 11px;
+    padding-top: 270px;
+    color: #FFFFFF;
+}
+.heroText h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.heroText p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.categoriesDropdown {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 26px 0;
+    width: 100%;   
+}
+.dropdownHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 26px;
+}
+
+.dropdownHeader h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+}
+
+.dropdownHeader i {
+    font-size: 20px;
+    color: #666;
+    transition: transform 0.3s ease;
+}
+
+.dropdownHeader.active i {
+    transform: rotate(180deg);
+}
+
+.categoryList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.categoryList.active {
+    max-height: 600px;
+}
+
+.categoryItem{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-left: 4px solid transparent;
+    transition: all 0.2s ease;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.categoryItem:hover {
+    background-color: #FFF5ED;
+}
+
+.categoryItem.active {
+    background-color: #FFE1C4;
+    border-left-color: #FF7A18;
+    color: #000000;
+}
+.categoryList a{
+    text-decoration: none;
+}
+.popularJollofSwallowSection{
+    width: 100%;
+    height: 494px;
+    padding: 24px 10px;
+    background-color: #F3F4F6;
+}
+.popularJollofSwallowSection .popularJollofSwallow{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.popularJollofSwallowSection .pjsHeadingAndFood{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.popularJollofSwallowSection .pjs{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+.popularJollofSwallowSection .imageAndText{
+    display: flex;
+    padding: 6px;
+    gap: 11px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.imageAndText img{
+    border-radius: 3.18px;
+}
+.imageAndText .text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.text h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.text p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.text .priceAndButton{
+    display: flex;
+    justify-content: space-between;
+}
+.priceAndButton p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FF7A18;
+}
+.priceAndButton button{
+    width: 25.95px;
+    height: 24.75px;
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #FF7A18;
+}
+.viewAllCategories{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E88E5;
+    justify-content: ceter;
+    text-align: center;
+    line-height: 140%;
+}

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+* {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  *::-webkit-scrollbar {
+    display: none; 
+  }
+html{
+  font-family: 'inter', sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: white;
+    padding: 40px 20px;
+}
+.createYourAcc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.createYourAcc h1{
+    font-family: 'island moments';
+    font-size: 40.81px;
+    font-weight: 400;
+    color: #FF7A18;
+}
+.createYourAcc p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.form{
+    width: 100%;
+    padding-top: 20px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+input{
+    width: 100%;
+    height: 54px;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    padding: 4px 16px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    accent-color: #1E88E5;
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #1E88E5;
+}
+label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #3B4758;
+}
+.checkAndAgree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.checkAndAgree a{
+    color: #1E88E5;
+    text-decoration: none;
+}
+.check{
+    padding-top: 17px;
+}
+.agree{
+    font-size: 14px;
+    font-weight: 500;
+    color: #616161;
+    line-height: 1.5;
+}  
+.confirmPassword{
+    margin-bottom: 0;
+}
+.continue{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 10px;
+}
+.continue p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #1F2937;
+
+}
+.continue button{
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF7A18;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.orContinue{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.gfbutton{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+.gfbutton button{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #BDBDBD;
+    border-radius: 6px;
+    background-color: white;
+    justify-content: center;
+}
+.gfbutton .cont{
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+    color: #3B4758;
+}
+.signIn{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #616161;
+    padding-top: 15px;
+}
+.signIn a{
+    color: #1C7FF9;
+    text-decoration: none;
+}
